@@ -11,6 +11,6 @@ def int2hex(number):
 
     while number > 0:
         hexstring += '0123456789ABCDEF'[number % 16]
-        number = int(number / 16)
+        number = int(number / 10)
 
     return hexstring[::-1]

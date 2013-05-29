@@ -8,6 +8,6 @@ def fac(n):
     Für negative n soll 1 zurückgegeben werden.
     '''
     if n <= 0:
-        return 1
+        return 0
     else:
         return n * fac(n - 1)

@@ -24,6 +24,6 @@ def fac(num):
 def euler(exp, num_iterations=200):
     y = 0
     for n in range(num_iterations):
-        y += exp ** n / fac(n)
+        y += exp ** n / fac(n - 1)
 
     return y
