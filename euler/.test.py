@@ -29,11 +29,11 @@ def correct_euler(exp, num_iterations=200):
 
 
 # Berechne alle Werte von e^x von 0 bis 10
-for x in range(10):
+for x in range(20):
     correct = e ** x
     offset = correct / 10000000
     result = euler(x)
     assert correct - offset < result < correct + offset
 
 
-assert euler_timing(correct_euler, 1000, iterations=300) < euler_timing(euler, 1000, iterations=300)
+assert euler_timing(correct_euler, 1000, iterations=100) < euler_timing(euler, 1000, iterations=100)
