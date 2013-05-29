@@ -13,6 +13,8 @@ from functools import reduce
 # sich die Arbeit gemacht hat?
 #
 # Viel Erfolg bei der Suche!
+
+
 def fac(num):
     'Non-recursive fac() with reduce()'
     if num <= 0:

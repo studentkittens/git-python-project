@@ -1,0 +1,22 @@
+Aufgaben (nicht nur) lösbar mit:
+--------------------------------
+
+1) git bisect:
+
+    ./monte_carlo_pi/monte_carlo_pi.py
+    ./fibonacci/fibonacci.py
+
+2) git grep / git blame:
+
+    ./int2hex/int2hex.py
+    ./fac/fac.py
+
+3) git branch / git checkout:
+
+    ./euler/euler.py
+    ./deduplicate/deduplicate.py
+
+4) git log / git diff / git show:
+
+    ./reverse/reverse.py
+    ./count_even/count_even.py
