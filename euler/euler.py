@@ -27,8 +27,3 @@ def euler(exp, num_iterations=200):
         y += exp ** n / fac(n)
 
     return y
-
-
-# Berechne alle Werte von e^x von 0 bis 500
-for x in range(500):
-    euler(x)
