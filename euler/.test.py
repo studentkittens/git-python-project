@@ -6,9 +6,9 @@ from time import time
 from math import e
 
 
-def euler_timing(func, exp, iterations=200):
+def euler_timing(func, exp, times=200, iterations=200):
     diff = 0
-    for n in range(100):
+    for n in range(times):
         start_time = time()
         func(exp, iterations)
         diff += time() - start_time
@@ -36,4 +36,4 @@ for x in range(20):
     assert correct - offset < result < correct + offset
 
 
-assert euler_timing(correct_euler, 1000, iterations=100) < euler_timing(euler, 1000, iterations=100)
+assert euler_timing(correct_euler, 1000, times=150, iterations=100) > euler_timing(euler, 1000, times=100, iterations=100)
