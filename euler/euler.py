@@ -15,17 +15,14 @@ from functools import reduce
 # Viel Erfolg bei der Suche!
 
 
-def fac(num):
-    'Non-recursive fac() with reduce()'
-    if num <= 0:
-        return 1
-    else:
-        return reduce(lambda a, b: a * b, range(1, num + 1))
-
-
 def euler(exp, num_iterations=200):
-    y = 0
-    for n in range(num_iterations):
-        y += exp ** n / fac(n)
+    y = 1
+    fac = 1
+    x_n = 1
+
+    for n in range(1, num_iterations + 1):
+        x_n *= exp
+        fac *= n
+        y += x_n / fac
 
     return y

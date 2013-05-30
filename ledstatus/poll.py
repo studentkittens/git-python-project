@@ -53,6 +53,8 @@ def loop():
         else:
             col = color.Color(0, 255, 0)
 
+        print(num, col)
+
         SENDER.send(col)
 
 
