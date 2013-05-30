@@ -1,7 +1,7 @@
 Aufgaben (nicht nur) lösbar mit:
 --------------------------------
 
-1) git bisect:
+1) git bisect / git show:
 
     ./monte_carlo_pi/monte_carlo_pi.py
     ./fibonacci/fibonacci.py
@@ -22,7 +22,7 @@ Aufgaben (nicht nur) lösbar mit:
     ./euler/euler.py
     ./deduplicate/deduplicate.py
 
-4) git log / git diff / git show:
+4) git log / git show:
 
     ./reverse/reverse.py
     ./count_even/count_even.py
