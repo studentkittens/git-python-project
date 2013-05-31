@@ -46,7 +46,7 @@ def loop():
         for bit in make():
             num |= 1 << bit
 
-        for thresh, red, green in [(16, 255, 0), (32, 200, 50), (64, 150, 100), (128, 100, 150), (255, 50, 200)]:
+        for thresh, red, green in [(16, 255, 0), (32, 220, 20), (64, 200, 50), (128, 180, 75), (255, 100, 150)]:
             if num < thresh:
                 col = color.Color(red, green, 0)
                 break
