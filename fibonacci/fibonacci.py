@@ -10,7 +10,7 @@
 #
 # Erste Zahlen der Folge: 0, 1, 1, 2, 3, 5, 8, 13
 #
-# Tipp: nutze git-bisect die letzte funktionierende Version herauszufinden!
+# Tipp: nutze git-bisect um die letzte funktionierende Version herauszufinden!
 
 
 def fibonacci(f0=0, f1=1, max_nums=10):

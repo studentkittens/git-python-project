@@ -10,7 +10,6 @@
 def fac(n):
     '''
     Berechne die Fakultät von n.
-    Für negative n soll 1 zurückgegeben werden.
     '''
     if n <= 0:
         return 0
