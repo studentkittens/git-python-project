@@ -15,10 +15,10 @@ from functools import reduce
 # Viel Erfolg bei der Suche!
 
 
-def euler(exp, num_iterations=200):
-    y = 1
-    fac = 1
-    x_n = 1
+def euler(exp, num_iterations=100):
+    y = 1.0
+    fac = 1.0
+    x_n = 1.0
 
     for n in range(1, num_iterations + 1):
         x_n *= exp
