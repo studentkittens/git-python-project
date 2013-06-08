@@ -14,6 +14,7 @@ Contents:
 
 **Hello Workshop!**
 
+Read the docs demo!
 
 Indices and tables
 ==================
