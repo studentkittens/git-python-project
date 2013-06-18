@@ -33,7 +33,5 @@ for x in range(20):
     correct = e ** x
     offset = correct / 10000000
     result = euler(x)
-    assert correct - offset < result < correct + offset
 
 
-assert euler_timing(correct_euler, 1000, times=150, iterations=100) > euler_timing(euler, 1000, times=100, iterations=100)
