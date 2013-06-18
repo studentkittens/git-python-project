@@ -16,6 +16,9 @@ Contents:
 
 Read the docs demo!
 
+
+Das Wetter ist schön!
+
 Indices and tables
 ==================
 
