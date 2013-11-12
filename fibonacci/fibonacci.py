@@ -19,5 +19,5 @@ def fibonacci(f0=0, f1=1, max_nums=10):
 
     for _ in range(max_nums):
         f1, f0 = f1 + f0, f1
-        results.append(f0)
+        results.append(f1)
     return results
