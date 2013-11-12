@@ -15,7 +15,7 @@
 
 def fibonacci(f0=0, f1=1, max_nums=10):
     'Generiere eine Liste mit Fibonacci-Nummern mit max_nums Zahlen.'
-    results = [f0, f1]
+    results = [f1, f0]
 
     for _ in range(max_nums):
         f1, f0 = f1 + f0, f1
