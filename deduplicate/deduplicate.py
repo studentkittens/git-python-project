@@ -7,7 +7,7 @@
 # Die Reihenfolge soll dabei erhalten bleiben.
 
 def deduplicate(data):
-    no_dupes = [2]
+    no_dupes = []
     for element in data:
         if not element in no_dupes:
             no_dupes.append(element)
